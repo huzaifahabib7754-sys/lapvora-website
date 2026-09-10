@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LAPVORA — Premium Laptop Bags</title>
+
+<meta name="description" content="Shop premium, stylish and durable laptop bags from LAPVORA. Perfect laptop bags for work, travel and everyday use.">
+
+<meta name="keywords" content="laptop bags, laptop backpack, LAPVORA, laptop bag Pakistan, premium laptop bags">
+
+<meta name="author" content="LAPVORA">
+
+<style>
+
+/* =====================================================
+   RESET
+===================================================== */
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#0b0b0d;
+    color:#f5f5f5;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button,
+input,
+textarea,
+select{
+    font:inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+.container{
+    width:min(1180px,92%);
+    margin:auto;
+}
+
+
+/* =====================================================
+   TOP BAR
+===================================================== */
+
+.topbar{
+    background:#000;
+    border-bottom:1px solid #242424;
+    padding:8px 0;
+    text-align:center;
+    font-size:13px;
+    color:#ddd;
+}
+
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(10,10,12,.96);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid #262626;
+}
+
+.nav-inner{
+    min-height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+
+/* LOGO */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    font-size:25px;
+    font-weight:900;
+    letter-spacing:2px;
+    color:#fff;
+}
+
+.header-logo{
+    width:38px !important;
+    height:38px !important;
+    min-width:38px;
+    min-height:38px;
+    object-fit:contain;
+    display:block;
+}
+
+
+/* NAV LINKS */
+
+.nav-links{
+    display:flex;
+    gap:28px;
+    align-items:center;
+}
+
+.nav-links a{
+    color:#ddd;
+    font-weight:600;
+    transition:.25s ease;
+}
+
+.nav-links a:hover{
+    color:#ff5a36 !important;
+    text-decoration:underline !important;
+    text-decoration-color:#ff5a36 !important;
+    text-decoration-thickness:2px !important;
+    text-underline-offset:5px !important;
+}
+
+.nav-links a.active{
+    color:#ff5a36;
+}
+
+
+/* NAV BUTTONS */
+
+.nav-actions{
+    display:flex;
+    gap:8px;
+    align-items:center;
+}
+
+.nav-btn,
+.hamburger{
+    border:1px solid #333;
+    background:#171719;
+    color:#fff;
+    border-radius:8px;
+    padding:9px 12px;
+    transition:.25s ease;
+}
+
+.nav-btn:hover,
+.hamburger:hover{
+    background:#ff5a36 !important;
+    border-color:#ff5a36 !important;
+    color:#fff !important;
+    transform:translateY(-2px);
+    box-shadow:0 5px 15px rgba(255,90,54,.35);
+}
+
+.hamburger{
+    display:none;
+    font-size:22px;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero{
+    min-height:650px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+    background:
+    radial-gradient(
+        circle at 50% 20%,
+        #361014 0,
+        #15090b 35%,
+        #0b0b0d 72%
+    );
+
+    padding:75px 20px;
+}
+
+.hero-content{
+    width:100%;
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+/* HERO LOGO */
+
+.hero-logo{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 14px;
+}
+
+.hero-logo img{
+    width:78px;
+    height:78px;
+    max-width:78px;
+    max-height:78px;
+    object-fit:contain;
+    display:block;
+}
+
+
+/* BADGE */
+
+.badge{
+    display:inline-block;
+    border:1px solid #e50914;
+    color:#ff5a61;
+    border-radius:999px;
+    padding:7px 15px;
+    margin:0 auto 20px;
+    font-size:13px;
+    font-weight:700;
+    text-align:center;
+}
+
+
+/* HERO HEADING */
+
+.hero h1{
+    width:100%;
+    font-size:clamp(42px,7vw,78px);
+    line-height:1.05;
+    margin:0 auto 20px;
+    text-align:center;
+}
+
+
+/* WHITE TEXT */
+
+.hero-white-text{
+    color:#fff;
+    display:block;
+}
+
+
+/* RED LAPVORA */
+
+.hero-red-text{
+    color:#e50914 !important;
+    display:block;
+    margin-top:5px;
+}
+
+
+/* HERO DESCRIPTION */
+
+.hero p{
+    width:100%;
+    max-width:680px;
+    margin:0 auto 28px;
+    color:#cfcfcf;
+    font-size:18px;
+    text-align:center;
+}
+
+
+/* HERO BUTTONS */
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:10px;
+}
+
+.btn{
+    border:0;
+    border-radius:9px;
+    padding:13px 20px;
+    font-weight:800;
+    transition:.25s ease;
+    display:inline-block;
+    text-align:center;
+}
+
+.btn-primary{
+    background:#e50914;
+    color:#fff;
+}
+
+.btn-primary:hover{
+    background:#ff5a36 !important;
+    border-color:#ff5a36 !important;
+    color:#fff !important;
+    transform:translateY(-2px);
+}
+
+.btn-dark{
+    background:#171719;
+    border:1px solid #333;
+    color:#fff;
+}
+
+.btn-dark:hover{
+    background:#ff5a36 !important;
+    border-color:#ff5a36 !important;
+    color:#fff !important;
+    transform:translateY(-2px);
+}
+
+
+/* =====================================================
+   SECTIONS
+===================================================== */
+
+section{
+    padding:75px 0;
+}
+
+.section-head{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.section-head h2{
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+.section-head p{
+    color:#aaa;
+}
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+.search-section{
+    padding:45px 0 20px;
+}
+
+.search-box{
+    max-width:760px;
+    margin:auto;
+    display:flex;
+    gap:10px;
+}
+
+.search-box input{
+    flex:1;
+    background:#151517;
+    border:1px solid #333;
+    color:#fff;
+    border-radius:9px;
+    padding:14px 16px;
+    outline:none;
+}
+
+.search-box input:focus{
+    border-color:#e50914;
+}
+
+
+/* =====================================================
+   PRODUCTS
+===================================================== */
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.product-card{
+    background:#121214;
+    border:1px solid #28282b;
+    border-radius:15px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    transition:.25s;
+}
+
+.product-card:hover{
+    transform:translateY(-5px);
+    border-color:#e50914;
+}
+
+.product-card.hidden{
+    display:none;
+}
+
+.product-image-wrap{
+    height:270px;
+    background:#f3f3f3;
+    display:grid;
+    place-items:center;
+    overflow:hidden;
+}
+
+.product-image{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+.product-info{
+    padding:18px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.product-info h3{
+    font-size:18px;
+    margin-bottom:7px;
+}
+
+.product-info .desc{
+    color:#999;
+    font-size:13px;
+    min-height:42px;
+}
+
+.price{
+    font-size:22px;
+    font-weight:900;
+    margin:13px 0;
+    color:#fff;
+}
+
+.qty-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:12px;
+}
+
+.qty-row button{
+    width:34px;
+    height:34px;
+    border:1px solid #444;
+    background:#1b1b1e;
+    color:#fff;
+    border-radius:7px;
+    font-size:20px;
+}
+
+.qty-row span{
+    min-width:30px;
+    text-align:center;
+    font-weight:800;
+}
+
+.product-buttons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+    margin-top:auto;
+}
+
+
+/* =====================================================
+   WHY
+===================================================== */
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.feature{
+    background:#121214;
+    border:1px solid #29292c;
+    border-radius:14px;
+    padding:24px;
+}
+
+.feature h3{
+    margin:10px 0 5px;
+}
+
+.feature p{
+    color:#aaa;
+}
+
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+.about{
+    background:#101012;
+}
+
+.about-box{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-box p{
+    color:#bbb;
+    margin-top:12px;
+}
+
+
+/* =====================================================
+   REVIEWS
+===================================================== */
+
+.reviews-section{
+    background:#0b0b0d;
+}
+
+.reviews-list{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    margin-bottom:30px;
+}
+
+.review-card{
+    background:#121214;
+    border:1px solid #29292c;
+    border-radius:14px;
+    padding:24px;
+}
+
+.review-card p{
+    color:#aaa;
+}
+
+.review-form,
+.checkout-box,
+.account-box,
+.contact-box{
+    max-width:700px;
+    margin:25px auto 0;
+    background:#121214;
+    border:1px solid #29292c;
+    border-radius:15px;
+    padding:25px;
+}
+
+.review-form h3{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+
+/* =====================================================
+   FORMS
+===================================================== */
+
+input,
+textarea,
+select{
+    width:100%;
+    background:#0e0e10;
+    border:1px solid #353539;
+    color:#fff;
+    border-radius:8px;
+    padding:13px;
+    margin-bottom:12px;
+    outline:none;
+}
+
+textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    border-color:#e50914;
+}
+
+.form-btn{
+    width:100%;
+}
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.cta{
+    background:linear-gradient(135deg,#390b10,#12090a);
+    text-align:center;
+}
+
+.cta h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+
+/* =====================================================
+   CONTACT
+===================================================== */
+
+.contact{
+    background:#101012;
+}
+
+
+/* =====================================================
+   ACCOUNT
+===================================================== */
+
+.account-section{
+    background:#0b0b0d;
+}
+
+.account-options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:-3px 0 14px;
+    font-size:13px;
+    color:#aaa;
+}
+
+.account-options label{
+    display:flex;
+    gap:6px;
+    align-items:center;
+}
+
+.account-options input{
+    width:auto;
+    margin:0;
+}
+
+.account-options a{
+    color:#e50914;
+}
+
+.password-box{
+    position:relative;
+}
+
+.password-box input{
+    padding-right:50px;
+}
+
+.password-box button{
+    position:absolute;
+    right:8px;
+    top:7px;
+    border:0;
+    background:transparent;
+    color:#aaa;
+    padding:7px;
+}
+
+.switch-account{
+    text-align:center;
+    color:#aaa;
+    margin-top:14px;
+}
+
+.switch-account button{
+    background:none;
+    border:0;
+    color:#e50914;
+    font-weight:700;
+}
+
+.social-login{
+    text-align:center;
+    color:#777;
+    margin-top:18px;
+}
+
+.social-buttons{
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    margin-top:10px;
+}
+
+.social-buttons button{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:1px solid #333;
+    background:#18181a;
+    color:#fff;
+}
+
+.profile-card{
+    text-align:center;
+    background:#0e0e10;
+    border:1px solid #2c2c2f;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:15px;
+}
+
+.profile-icon{
+    font-size:35px;
+}
+
+.dashboard-options{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px;
+}
+
+.dashboard-options button{
+    padding:11px;
+    border-radius:8px;
+    border:1px solid #333;
+    background:#19191b;
+    color:#fff;
+}
+
+.dashboard-options .logout-btn{
+    border-color:#e50914;
+    color:#ff6b70;
+}
+
+.dashboard-message{
+    margin-top:15px;
+    padding:15px;
+    background:#0e0e10;
+    border-radius:9px;
+    color:#bbb;
+}
+
+
+/* =====================================================
+   CHECKOUT
+===================================================== */
+
+.checkout-section{
+    display:none;
+    background:#0b0b0d;
+}
+
+.checkout-section.show{
+    display:block;
+}
+
+.checkout-summary{
+    background:#0e0e10;
+    border:1px solid #2c2c2f;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:15px;
+    color:#ccc;
+}
+
+
+/* =====================================================
+   CART OVERLAY
+===================================================== */
+
+.cart-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.72);
+    z-index:2000;
+    display:none;
+    justify-content:flex-end;
+}
+
+.cart-overlay.show{
+    display:flex;
+}
+
+.cart-panel{
+    width:min(480px,100%);
+    height:100%;
+    background:#111113;
+    border-left:1px solid #333;
+    padding:22px;
+    overflow:auto;
+}
+
+.cart-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.close-btn{
+    border:1px solid #333;
+    background:#18181a;
+    color:#fff;
+    width:36px;
+    height:36px;
+    border-radius:8px;
+}
+
+.cart-item{
+    display:flex;
+    gap:12px;
+    padding:14px 0;
+    border-bottom:1px solid #29292c;
+}
+
+.cart-thumb{
+    width:70px;
+    height:70px;
+    background:#eee;
+    border-radius:8px;
+    object-fit:contain;
+    flex:none;
+}
+
+.cart-item-info{
+    flex:1;
+}
+
+.cart-item-info strong{
+    display:block;
+}
+
+.cart-price{
+    color:#aaa;
+    font-size:13px;
+}
+
+.cart-controls{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-top:8px;
+}
+
+.cart-controls button{
+    width:28px;
+    height:28px;
+    border:1px solid #444;
+    background:#19191b;
+    color:#fff;
+    border-radius:6px;
+}
+
+.remove-cart-item{
+    background:none;
+    border:0;
+    color:#ff5b62;
+    font-size:12px;
+}
+
+.cart-footer{
+    margin-top:20px;
+}
+
+.cart-total-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+    font-weight:900;
+    margin-bottom:15px;
+}
+
+.cart-footer .btn{
+    width:100%;
+    margin-top:8px;
+    text-align:center;
+}
+
+
+/* =====================================================
+   CART PAGE
+===================================================== */
+
+.cart-page{
+    background:#101012;
+}
+
+.cart-page-box{
+    background:#121214;
+    border:1px solid #29292c;
+    border-radius:15px;
+    padding:25px;
+}
+
+.cart-page-list .cart-item{
+    display:flex;
+}
+
+.empty-cart{
+    text-align:center;
+    color:#888;
+    padding:25px;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer{
+    background:#050506;
+    border-top:1px solid #242424;
+    padding:35px 0;
+    text-align:center;
+    color:#888;
+}
+
+.footer strong{
+    color:#fff;
+}
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+.mobile-menu,
+.mobile-overlay{
+    display:none;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media(max-width:1000px){
+
+    .products-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .reviews-list,
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .hamburger{
+        display:block;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:600px){
+
+    .nav-inner{
+        min-height:62px;
+    }
+
+    .logo{
+        font-size:19px;
+    }
+
+    .header-logo{
+        width:34px !important;
+        height:34px !important;
+    }
+
+    .nav-actions .desktop-action{
+        display:none;
+    }
+
+    .hero{
+        min-height:560px;
+        padding:55px 15px;
+    }
+
+    .hero-logo img{
+        width:68px;
+        height:68px;
+    }
+
+    .hero h1{
+        font-size:43px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .search-box{
+        flex-direction:column;
+    }
+
+    .products-grid{
+        grid-template-columns:1fr;
+    }
+
+    .product-image-wrap{
+        height:300px;
+    }
+
+    .product-buttons{
+        grid-template-columns:1fr;
+    }
+
+    .dashboard-options{
+        grid-template-columns:1fr;
+    }
+
+    .cart-panel{
+        width:100%;
+    }
+
+    section{
+        padding:55px 0;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="topbar">
+    🚚 Premium Laptop Bags • Stylish • Durable • Pakistan
+</div>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <div class="container nav-inner">
+
+        <a href="#home" class="logo">
+
+            <img
+                src="assets/lapvora-logo.png"
+                alt="LAPVORA Logo"
+                class="header-logo"
+            >
+
+            <span>LAPVORA</span>
+
+        </a>
+
+
+        <nav class="nav-links" aria-label="Main navigation">
+
+            <a href="#home" class="active">HOME</a>
+
+            <a href="#products">PRODUCTS</a>
+
+            <a href="#about">ABOUT</a>
+
+            <a href="#contact">CONTACT</a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button
+                class="nav-btn desktop-action"
+                type="button"
+                onclick="openCart()"
+            >
+                🛒 Cart <span id="cart-count">0</span>
+            </button>
+
+
+            <button
+                class="nav-btn desktop-action"
+                type="button"
+                onclick="openAccount()"
+            >
+                👤 Account
+            </button>
+
+
+            <a
+                class="nav-btn desktop-action"
+                href="https://wa.me/923096794850"
+                target="_blank"
+                rel="noopener"
+            >
+                WhatsApp
+            </a>
+
+
+            <button
+                class="hamburger"
+                type="button"
+                onclick="openMobileMenu()"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<div
+    id="mobileMenuOverlay"
+    class="mobile-overlay"
+    onclick="closeMobileMenu()"
+></div>
+
+
+<div id="mobileMenu" class="mobile-menu">
+
+    <button
+        type="button"
+        onclick="closeMobileMenu()"
+    >
+        ✕
+    </button>
+
+    <a
+        href="#home"
+        onclick="closeMobileMenu()"
+    >
+        HOME
+    </a>
+
+    <a
+        href="#products"
+        onclick="closeMobileMenu()"
+    >
+        PRODUCTS
+    </a>
+
+    <a
+        href="#about"
+        onclick="closeMobileMenu()"
+    >
+        ABOUT
+    </a>
+
+    <a
+        href="#contact"
+        onclick="closeMobileMenu()"
+    >
+        CONTACT
+    </a>
+
+    <button
+        type="button"
+        onclick="mobileOpenCart()"
+    >
+        🛒 Cart
+    </button>
+
+    <button
+        type="button"
+        onclick="mobileOpenAccount()"
+    >
+        👤 Account
+    </button>
+
+    <a
+        href="https://wa.me/923096794850"
+        target="_blank"
+        rel="noopener"
+    >
+        WhatsApp
+    </a>
+
+</div>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+
+        <!-- LOGO -->
+
+        <div class="hero-logo">
+
+            <img
+                src="assets/lapvora-logo.png"
+                alt="LAPVORA Logo"
+            >
+
+        </div>
+
+
+        <!-- PREMIUM LAPTOP BAGS -->
+
+        <div class="badge">
+            PREMIUM LAPTOP BAGS
+        </div>
+
+
+        <!-- MAIN HEADING -->
+
+        <h1>
+
+            <span class="hero-white-text">
+                Carry Your World with
+            </span>
+
+            <span class="hero-red-text">
+                LAPVORA
+            </span>
+
+        </h1>
+
+
+        <!-- DESCRIPTION -->
+
+        <p>
+            Premium, stylish and durable laptop bags made for work,
+            university, travel and everyday life.
+        </p>
+
+
+        <!-- HERO BUTTONS -->
+
+        <div class="hero-buttons">
+
+            <a
+                class="btn btn-primary"
+                href="#products"
+            >
+                Shop Now
+            </a>
+
+            <button
+                class="btn btn-dark"
+                type="button"
+                onclick="openCart()"
+            >
+                View Cart
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SEARCH
+===================================================== -->
+
+<section class="search-section">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                Find Your Perfect Laptop Bag
+            </h2>
+
+            <p>
+                Search our collection instantly.
+            </p>
+
+        </div>
+
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="productSearch"
+                placeholder="Search laptop bags..."
+                oninput="searchProducts()"
+            >
+
+            <button
+                class="btn btn-primary"
+                type="button"
+                onclick="searchProducts()"
+            >
+                🔍 Search
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PRODUCTS
+===================================================== -->
+
+<section id="products">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                Our Products
+            </h2>
+
+            <p>
+                Choose the bag that fits your lifestyle.
+            </p>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <!-- PRODUCT 1 -->
+
+            <article
+                class="product-card"
+                data-name="LAPVORA Premium Laptop Backpack laptop bag backpack premium"
+            >
+
+                <div class="product-image-wrap">
+
+                    <img
+                        class="product-image"
+                        src="assets/bag1.png"
+                        alt="LAPVORA Premium Laptop Backpack"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        LAPVORA Premium Laptop Backpack
+                    </h3>
+
+                    <p class="desc">
+                        Premium everyday backpack with a clean modern look.
+                    </p>
+
+                    <div class="price">
+                        Rs. 4,999
+                    </div>
+
+
+                    <div class="qty-row">
+
+                        <button
+                            type="button"
+                            onclick="changeQty(1,-1)"
+                        >
+                            −
+                        </button>
+
+                        <span id="qty-1">
+                            1
+                        </span>
+
+                        <button
+                            type="button"
+                            onclick="changeQty(1,1)"
+                        >
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-buttons">
+
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            onclick="addToCart(1)"
+                        >
+                            Add to Cart
+                        </button>
+
+                        <button
+                            class="btn btn-dark"
+                            type="button"
+                            onclick="buyNow(1)"
+                        >
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PRODUCT 2 -->
+
+            <article
+                class="product-card"
+                data-name="LAPVORA Travel Laptop Backpack laptop bag travel backpack"
+            >
+
+                <div class="product-image-wrap">
+
+                    <img
+                        class="product-image"
+                        src="assets/bag2.png"
+                        alt="LAPVORA Travel Laptop Backpack"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        LAPVORA Travel Laptop Backpack
+                    </h3>
+
+                    <p class="desc">
+                        Comfortable travel-focused design with useful storage.
+                    </p>
+
+                    <div class="price">
+                        Rs. 5,499
+                    </div>
+
+
+                    <div class="qty-row">
+
+                        <button
+                            type="button"
+                            onclick="changeQty(2,-1)"
+                        >
+                            −
+                        </button>
+
+                        <span id="qty-2">
+                            1
+                        </span>
+
+                        <button
+                            type="button"
+                            onclick="changeQty(2,1)"
+                        >
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-buttons">
+
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            onclick="addToCart(2)"
+                        >
+                            Add to Cart
+                        </button>
+
+                        <button
+                            class="btn btn-dark"
+                            type="button"
+                            onclick="buyNow(2)"
+                        >
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PRODUCT 3 -->
+
+            <article
+                class="product-card"
+                data-name="LAPVORA Business Laptop Bag laptop bag business office"
+            >
+
+                <div class="product-image-wrap">
+
+                    <img
+                        class="product-image"
+                        src="assets/bag3.png"
+                        alt="LAPVORA Business Laptop Bag"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        LAPVORA Business Laptop Bag
+                    </h3>
+
+                    <p class="desc">
+                        Professional design for office, meetings and business travel.
+                    </p>
+
+                    <div class="price">
+                        Rs. 4,499
+                    </div>
+
+
+                    <div class="qty-row">
+
+                        <button
+                            type="button"
+                            onclick="changeQty(3,-1)"
+                        >
+                            −
+                        </button>
+
+                        <span id="qty-3">
+                            1
+                        </span>
+
+                        <button
+                            type="button"
+                            onclick="changeQty(3,1)"
+                        >
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-buttons">
+
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            onclick="addToCart(3)"
+                        >
+                            Add to Cart
+                        </button>
+
+                        <button
+                            class="btn btn-dark"
+                            type="button"
+                            onclick="buyNow(3)"
+                        >
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PRODUCT 4 -->
+
+            <article
+                class="product-card"
+                data-name="LAPVORA Executive Laptop Backpack laptop bag executive premium"
+            >
+
+                <div class="product-image-wrap">
+
+                    <img
+                        class="product-image"
+                        src="assets/bag4.png"
+                        alt="LAPVORA Executive Laptop Backpack"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        LAPVORA Executive Laptop Backpack
+                    </h3>
+
+                    <p class="desc">
+                        Executive style with premium presentation for professionals.
+                    </p>
+
+                    <div class="price">
+                        Rs. 5,999
+                    </div>
+
+
+                    <div class="qty-row">
+
+                        <button
+                            type="button"
+                            onclick="changeQty(4,-1)"
+                        >
+                            −
+                        </button>
+
+                        <span id="qty-4">
+                            1
+                        </span>
+
+                        <button
+                            type="button"
+                            onclick="changeQty(4,1)"
+                        >
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-buttons">
+
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            onclick="addToCart(4)"
+                        >
+                            Add to Cart
+                        </button>
+
+                        <button
+                            class="btn btn-dark"
+                            type="button"
+                            onclick="buyNow(4)"
+                        >
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CART PAGE
+===================================================== -->
+
+<section class="cart-page" id="cartPage">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                Your Cart
+            </h2>
+
+            <p>
+                Review your items before checkout.
+            </p>
+
+        </div>
+
+
+        <div class="cart-page-box">
+
+            <div
+                id="cartPageItems"
+                class="cart-page-list"
+            ></div>
+
+
+            <div class="cart-total-row">
+
+                <span>
+                    Total
+                </span>
+
+                <span id="cartPageTotal">
+                    Rs. 0
+                </span>
+
+            </div>
+
+
+            <button
+                class="btn btn-primary"
+                type="button"
+                onclick="openCheckout()"
+            >
+                Proceed to Checkout
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHY LAPVORA
+===================================================== -->
+
+<section class="why">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                Why LAPVORA?
+            </h2>
+
+            <p>
+                Designed around quality, style and everyday convenience.
+            </p>
+
+        </div>
+
+
+        <div class="why-grid">
+
+            <div class="feature">
+
+                <div>🛡️</div>
+
+                <h3>
+                    Durable Quality
+                </h3>
+
+                <p>
+                    Built for everyday use with practical materials and construction.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div>💻</div>
+
+                <h3>
+                    Laptop Protection
+                </h3>
+
+                <p>
+                    Dedicated space helps keep your laptop and essentials organized.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div>✨</div>
+
+                <h3>
+                    Premium Style
+                </h3>
+
+                <p>
+                    Modern designs that look professional at university, work or travel.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about" id="about">
+
+    <div class="container about-box">
+
+        <div class="section-head">
+
+            <h2>
+                About LAPVORA
+            </h2>
+
+        </div>
+
+        <p>
+            LAPVORA is focused on premium laptop bags that combine modern design,
+            practical storage and dependable everyday use. Our goal is simple:
+            make carrying your laptop look better and feel easier.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     REVIEWS
+===================================================== -->
+
+<section class="reviews-section" id="reviews">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                Customer Reviews
+            </h2>
+
+            <p>
+                See what our customers say about LAPVORA.
+            </p>
+
+        </div>
+
+
+        <div
+            id="reviewsList"
+            class="reviews-list"
+        ></div>
+
+
+        <div class="review-form">
+
+            <h3>
+                Write a Review
+            </h3>
+
+            <input
+                type="text"
+                id="reviewName"
+                placeholder="Your Name"
+            >
+
+            <select id="reviewRating">
+
+                <option value="5">
+                    ★★★★★ - 5 Stars
+                </option>
+
+                <option value="4">
+                    ★★★★☆ - 4 Stars
+                </option>
+
+                <option value="3">
+                    ★★★☆☆ - 3 Stars
+                </option>
+
+                <option value="2">
+                    ★★☆☆☆ - 2 Stars
+                </option>
+
+                <option value="1">
+                    ★☆☆☆☆ - 1 Star
+                </option>
+
+            </select>
+
+
+            <textarea
+                id="reviewText"
+                placeholder="Write your review..."
+            ></textarea>
+
+
+            <button
+                class="btn btn-primary form-btn"
+                type="button"
+                onclick="submitReview()"
+            >
+                ⭐ Submit Review
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+            Ready to Upgrade Your Carry?
+        </h2>
+
+        <p style="color:#bbb;margin-bottom:20px">
+            Choose your LAPVORA bag and place your order today.
+        </p>
+
+        <a
+            class="btn btn-primary"
+            href="#products"
+        >
+            Shop LAPVORA
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                Contact LAPVORA
+            </h2>
+
+            <p>
+                Send your message directly to us on WhatsApp.
+            </p>
+
+        </div>
+
+
+        <form
+            class="contact-box"
+            onsubmit="sendMessage(event)"
+        >
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Subject"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+
+            <button
+                class="btn btn-primary form-btn"
+                type="submit"
+            >
+                Send Message on WhatsApp
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ACCOUNT
+===================================================== -->
+
+<section class="account-section" id="account">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                My Account
+            </h2>
+
+            <p>
+                Manage your LAPVORA demo account and orders.
+            </p>
+
+        </div>
+
+
+        <div class="account-box">
+
+
+            <!-- LOGIN -->
+
+            <div id="loginForm">
+
+                <h2 style="text-align:center">
+                    Welcome to LAPVORA
+                </h2>
+
+                <p style="text-align:center;color:#888;margin-bottom:18px">
+                    Login to your account
+                </p>
+
+
+                <input
+                    type="email"
+                    id="loginEmail"
+                    placeholder="Enter Email"
+                >
+
+
+                <div class="password-box">
+
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        placeholder="Enter Password"
+                    >
+
+                    <button
+                        type="button"
+                        onclick="togglePassword('loginPassword')"
+                    >
+                        👁
+                    </button>
+
+                </div>
+
+
+                <div class="account-options">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="rememberMe"
+                        >
+
+                        Remember Me
+
+                    </label>
+
+
+                    <a
+                        href="#"
+                        onclick="forgotPassword(event)"
+                    >
+                        Forgot Password?
+                    </a>
+
+                </div>
+
+
+                <button
+                    class="btn btn-primary form-btn"
+                    type="button"
+                    onclick="loginAccount()"
+                >
+                    Login
+                </button>
+
+
+                <p class="switch-account">
+
+                    Don't have an account?
+
+                    <button
+                        type="button"
+                        onclick="showSignup()"
+                    >
+                        Create Account
+                    </button>
+
+                </p>
+
+
+                <div class="social-login">
+
+                    Or continue with
+
+                    <div class="social-buttons">
+
+                        <button type="button">
+                            f
+                        </button>
+
+                        <button type="button">
+                            ◎
+                        </button>
+
+                        <button type="button">
+                            G
+                        </button>
+
+                        <button type="button">
+                            𝕏
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SIGNUP -->
+
+            <div
+                id="signupForm"
+                style="display:none"
+            >
+
+                <h2 style="text-align:center">
+                    Create Account
+                </h2>
+
+                <p style="text-align:center;color:#888;margin-bottom:18px">
+                    Join LAPVORA today
+                </p>
+
+
+                <input
+                    type="text"
+                    id="signupName"
+                    placeholder="Full Name"
+                >
+
+                <input
+                    type="email"
+                    id="signupEmail"
+                    placeholder="Enter Email"
+                >
+
+
+                <div class="password-box">
+
+                    <input
+                        type="password"
+                        id="signupPassword"
+                        placeholder="Create Password"
+                    >
+
+                    <button
+                        type="button"
+                        onclick="togglePassword('signupPassword')"
+                    >
+                        👁
+                    </button>
+
+                </div>
+
+
+                <div class="password-box">
+
+                    <input
+                        type="password"
+                        id="signupConfirmPassword"
+                        placeholder="Confirm Password"
+                    >
+
+                    <button
+                        type="button"
+                        onclick="togglePassword('signupConfirmPassword')"
+                    >
+                        👁
+                    </button>
+
+                </div>
+
+
+                <button
+                    class="btn btn-primary form-btn"
+                    type="button"
+                    onclick="createAccount()"
+                >
+                    Create Account
+                </button>
+
+
+                <p class="switch-account">
+
+                    Already have an account?
+
+                    <button
+                        type="button"
+                        onclick="showLogin()"
+                    >
+                        Login Here
+                    </button>
+
+                </p>
+
+            </div>
+
+
+
+            <!-- DASHBOARD -->
+
+            <div
+                id="accountDashboard"
+                style="display:none"
+            >
+
+                <h2 style="text-align:center">
+                    My Account
+                </h2>
+
+                <p style="text-align:center;color:#888;margin-bottom:18px">
+                    Welcome back to LAPVORA
+                </p>
+
+
+                <div class="profile-card">
+
+                    <div class="profile-icon">
+                        👤
+                    </div>
+
+                    <h3 id="profileName">
+                        Customer
+                    </h3>
+
+                    <p id="profileEmail">
+                        customer@email.com
+                    </p>
+
+                </div>
+
+
+                <div class="dashboard-options">
+
+                    <button
+                        type="button"
+                        onclick="showOrders()"
+                    >
+                        🛒 My Orders
+                    </button>
+
+                    <button
+                        type="button"
+                        onclick="showProfile()"
+                    >
+                        👤 Profile
+                    </button>
+
+                    <button
+                        type="button"
+                        class="logout-btn"
+                        onclick="logoutAccount()"
+                    >
+                        🚪 Logout
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="dashboardMessage"
+                    class="dashboard-message"
+                >
+                    Select an option above.
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CHECKOUT
+===================================================== -->
+
+<section
+    class="checkout-section"
+    id="checkout"
+>
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <h2>
+                Checkout
+            </h2>
+
+            <p>
+                Complete your details to place your LAPVORA order.
+            </p>
+
+        </div>
+
+
+        <div class="checkout-box">
+
+            <div
+                id="checkoutSummary"
+                class="checkout-summary"
+            >
+                Your cart summary will appear here.
+            </div>
+
+
+            <input
+                type="text"
+                id="checkoutName"
+                placeholder="Full Name"
+            >
+
+            <input
+                type="tel"
+                id="checkoutPhone"
+                placeholder="Phone Number"
+            >
+
+            <input
+                type="text"
+                id="checkoutCity"
+                placeholder="City"
+            >
+
+            <textarea
+                id="checkoutAddress"
+                placeholder="Complete Delivery Address"
+            ></textarea>
+
+
+            <select id="checkoutPayment">
+
+                <option value="">
+                    Select Payment Method
+                </option>
+
+                <option value="Cash on Delivery">
+                    Cash on Delivery
+                </option>
+
+                <option value="Bank Transfer">
+                    Bank Transfer
+                </option>
+
+            </select>
+
+
+            <button
+                class="btn btn-primary form-btn"
+                type="button"
+                onclick="submitCheckout()"
+            >
+                Place Order on WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CART OVERLAY
+===================================================== -->
+
+<div
+    id="cart-overlay"
+    class="cart-overlay"
+    onclick="handleCartOverlayClick(event)"
+>
+
+    <aside
+        class="cart-panel"
+        onclick="event.stopPropagation()"
+    >
+
+        <div class="cart-head">
+
+            <h2>
+                Shopping Cart
+            </h2>
+
+            <button
+                class="close-btn"
+                type="button"
+                onclick="closeCart()"
+            >
+                ✕
+            </button>
+
+        </div>
+
+
+        <div id="cart-items"></div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total-row">
+
+                <span>
+                    Total
+                </span>
+
+                <span id="cart-total">
+                    Rs. 0
+                </span>
+
+            </div>
+
+
+            <button
+                class="btn btn-dark"
+                type="button"
+                onclick="proceedToCart()"
+            >
+                Proceed to Cart
+            </button>
+
+
+            <button
+                class="btn btn-primary"
+                type="button"
+                onclick="openCheckout()"
+            >
+                Proceed to Checkout
+            </button>
+
+
+            <button
+                class="btn btn-dark"
+                type="button"
+                onclick="orderCartOnWhatsApp()"
+            >
+                Order Cart on WhatsApp
+            </button>
+
+        </div>
+
+    </aside>
+
+</div>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <strong>
+            LAPVORA
+        </strong>
+
+        <br>
+
+        Premium Laptop Bags • Stylish • Durable
+
+        <br><br>
+
+        <a
+            href="https://wa.me/923096794850"
+            target="_blank"
+            rel="noopener"
+        >
+            Contact us on WhatsApp
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
